@@ -2,9 +2,11 @@ import java.util.*;
 
 public class Main {
 
+    public static final int CANTIDADNUMERO = 1000000;
+
     public static void main(String[] args) {
 
-        //public static final int CANTIDADNUMEROS = 500000;
+
         Random aleatori = new Random();
         ArrayList numeros = new ArrayList<>();
         Scanner input = new Scanner(System.in);
@@ -15,8 +17,8 @@ public class Main {
         // guardar timestamp inicio
         long start = System.currentTimeMillis();
         //hacemos algo
-        for (int i = 0; i < 500000; i++) {
-            int numero = aleatori.nextInt(1000000 + 1);
+        for (int i = 0; i < CANTIDADNUMERO; i++) {
+            int numero = aleatori.nextInt(10000000 + 1);
             numeros.add(numero);
         }
 
