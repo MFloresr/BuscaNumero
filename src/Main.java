@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Random aleatori = new Random();
         ArrayList numeros = new ArrayList<>();
         Scanner input = new Scanner(System.in);
